@@ -9,7 +9,7 @@ import {
     Card,
     CardContent
 } from '@material-ui/core';
-import image from '../../images/news.jpg'
+import image from '../../images/admision.jpg'
 
 import calendar from '../../assets/calendar.svg'
 import timer from '../../assets/timer.svg'
