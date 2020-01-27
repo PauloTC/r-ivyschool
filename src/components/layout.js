@@ -4,6 +4,7 @@ import { ThemeProvider } from '@material-ui/styles';
 import theme from "../theme/muiTheme"
 
 import Header from "./header"
+import Footer from './footer'
 
 const Layout = ({ children }) => {
 
@@ -12,12 +13,8 @@ const Layout = ({ children }) => {
         <Header siteTitle="Index"/>
         <div>
             <main>{children}</main>
-            <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-            </footer>
         </div>
+        <Footer />
     </ThemeProvider>
   )
 }
